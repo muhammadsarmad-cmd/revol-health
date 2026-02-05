@@ -4,7 +4,7 @@
     font-family: poppins, sans-serif;
     font-size: 42px;
     margin-bottom: 30px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .title-h2 {
@@ -19,7 +19,7 @@
     font-family: poppins, sans-serif;
     font-size: 28px;
     margin-bottom: 30px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 
@@ -27,7 +27,7 @@
     font-family: poppins, sans-serif;
     font-size: 26px;
     margin-bottom: 30px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .title-h5 {
@@ -36,30 +36,38 @@
     margin-bottom: 30px;
 
 }
+
+.title-h4 {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 .text-p {
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .small-text-p {
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.4;
 }
 
 .smaller-text-p {
     text-transform: uppercase;
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
+
 .text-white {
     color: white;
 }
@@ -116,7 +124,7 @@ p {
 
 /* hero section */
 
-.hero{
+.hero {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,55 +132,54 @@ p {
     align-items: center;
     width: 100%;
     display: flex;
-    
+
 }
 
 
 /* impact healthcare */
 
-.impact-healthcare .healthcare-card{
+.impact-healthcare .healthcare-card {
     border-radius: 30px;
     padding: 55px 40px
-
 }
 
 .border-right-custom {
-  position: relative;
+    position: relative;
 }
 
 .border-right-custom::after {
-  content: "";
-  position: absolute;
-  top: 30px;
-  bottom: 30px;
-  right: 0;
-  width: 1px;
-  background-color: rgba(255, 255, 255, 0.5);
+    content: "";
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 0;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 
 .gradient-border {
-  position: relative;
-  border-radius: 20px;
+    position: relative;
+    border-radius: 20px;
 
 }
 
 .gradient-border::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 5px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, #F2436E, #7317A5);
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #F2436E, #7317A5);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 }
 
 
-.stat img{
+.stat img {
     margin-bottom: 37px;
 
 }
@@ -180,29 +187,29 @@ p {
 
 /* Tailored healthcare section */
 
-.health-card{
+.health-card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     padding: 80px 30px 40px;
     margin-bottom: 15px;
-    min-height: 375px ;
+    min-height: 375px;
 
 }
 
-.health-card-lg{
+.health-card-lg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     padding: 80px 30px 40px;
     margin-bottom: 15px;
-    min-height: 450px ;
+    min-height: 450px;
 
 }
 
-.health-card-sm{
+.health-card-sm {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -213,109 +220,260 @@ p {
 
 }
 
-.mobiles-card{
+.mobiles-card {
     background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
     min-width: 1400px;
 
-    padding:70px 80px 70px;
+    padding: 70px 80px 70px;
 }
 
 /* mobile app card section */
 
-.mobile-apps-card{
+.mobile-apps-card {
     margin-top: 30px;
-    border-radius:20px;
-    padding:150px 60px;
+    border-radius: 20px;
+    padding: 150px 60px;
 
 }
 
 .border-right-custom-small {
-  position: relative;
+    position: relative;
 }
 
 .border-right-custom-small::after {
-  content: "";
-  position: absolute;
-  top:0px;
-  bottom:30px;
-  right: 0;
-  width: 1px;
-  background-color: rgba(255, 255, 255, 0.5);
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 30px;
+    right: 0;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.app-stats-1{
-    padding-right:50px;
+.app-stats-1 {
+    padding-right: 50px;
 }
 
-.app-stats-2{
-    padding-left:30px;
+.app-stats-2 {
+    padding-left: 30px;
 }
 
-.nav-tab{
-    column-gap:20px;
+.nav-tab {
+    column-gap: 20px;
     border-bottom: none;
 }
 
-.nav .nav-item button{
+.nav .nav-item button {
     background: transparent;
-    
+
 }
 
 
 
 .nav .nav-item button {
-  position: relative;
-  border-radius: 20px;
-  background:transparent;
+    position: relative;
+    border-radius: 20px;
+    background: transparent;
 
 }
 
 .nav .nav-item button::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 2px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, #F2436E, #7317A5);
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #F2436E, #7317A5);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 }
 
 .nav-tab .nav-link {
-  color: white !important;        
+    color: white !important;
 }
 
 .nav-tab .nav-link:hover,
 .nav-tab .nav-link:focus,
 .nav-tab .nav-link.active {
-  color: white !important;        
+    color: white !important;
 }
 
-.nav-tab .nav-link:hover{
+.nav-tab .nav-link:hover {
     background: linear-gradient(90deg, #F2436E, #7317A5);
 }
 
 /*  why-revol-health */
-.why-revol-health .box{
-background: #FFFFFF;
-border: 1px solid #F0F0F0;
-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
-border-radius: 20px;
-padding:30px 40px;
-margin-bottom: 30px;
+.why-revol-health .box {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1
 }
 
-.why-revol-health .box svg { margin-bottom: 20px; }
+.why-revol-health .box svg {
+    margin-bottom: 20px;
+}
+
+.why-revol-health .box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* cover the whole box */
+    border-radius: 20px;
+    padding: 2px;
+    /* thickness of border */
+    background: linear-gradient(45deg, #ff6b6b, #5f27cd);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+    opacity: 0;
+    /* hidden by default */
+    transition: opacity 1s ease
+}
+
+.why-revol-health .box:hover::before {
+    opacity: 1;
+}
+
+.why-revol-health .mt {
+    margin-top: 30px;
+}
+
+.how-we-work .num-img {
+    width: 76px;
+    height: 76px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.how-we-work h3 {
+    margin-bottom: 13px
+}
+
+.how-we-work .cards {
+    background-color: #181C4A;
+    padding: 30px 20px;
+    border-radius: 30px;
+    
+}
+
+.how-we-work .verticalswipper {
+    height: 406px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    
+}
 
 
 
 
 
+/* 1. Set the base state for all slides */
+.how-we-work .verticalswipper .swiper-slide {
+    height: 130px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+     margin-bottom: 0 !important;
+    transition: transform 0.4s ease, opacity 0.4s ease; /* Smooth transition */
+    transform: scale(0.8); /* Make inactive slides smaller */
+
+}
+
+/* 2. Set the state for the active (centered) slide */
+.how-we-work .verticalswipper .swiper-slide-active {
+    
+    transform: scale(0.9);  /* Scale it up slightly larger than original */
+    opacity: 1;             /* Full visibility */
+    z-index: 5;            /* Ensure it sits on top of others */
+
+}
+
+.how-we-work .verticalswipper .swiper-slide-active {
+    position: relative;
+    border-radius: 20px;
+}
+
+.how-we-work .verticalswipper .swiper-slide-active::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #F2436E, #7317A5);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
 
 
+
+
+/* Textimonials */
+.testimonials .testimonials-card {
+    padding: 34px 34px 34px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+}
+
+.testimonials-slider {
+    display: flex;
+    gap: 10px;
+}
+
+.testimonials-card svg {
+    margin-bottom: 20px;
+}
+
+/* industry-leaders */
+
+.industry-leaders .brand-boxes {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.industry-leaders .brand-box {
+    background-color: #171739;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.industry-leaders .next-step {
+    padding: 60px 60px;
+}
+
+/* footer */
+.footer {
+    padding-bottom: 0px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.footer-bottom {
+    padding: 20px 0px;
+
+}
